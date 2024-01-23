@@ -19,7 +19,6 @@ function App() {
   return (
     <div className="d-flex justify-content-center align-items-center text-center vh-100">
       <div>
-        <h1>{count}</h1>
         <button> Increase </button>
         <button> Decrease </button>
         <button> Set to Zero </button>
