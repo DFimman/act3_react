@@ -1,5 +1,8 @@
 import "./App.css";
 import { useState } from "react"; //to create a state
+import IncreaseButton from "./components/IncreaseButton";
+import DeacreaseButton from "./components/DeacreaseButton";
+import ResestButton from "./components/ResestButton";
 
 function App() {
   const [count, Setcount] = useState(0);
@@ -19,9 +22,9 @@ function App() {
   return (
     <div className="d-flex justify-content-center align-items-center text-center vh-100">
       <div>
-        <button> Increase </button>
-        <button> Decrease </button>
-        <button> Set to Zero </button>
+        <IncreaseButton increase={increase} />
+        <ResestButton reset={reset} />
+        <DeacreaseButton decrease={decrease} />
         <h1> {count} </h1>
       </div>
     </div>
