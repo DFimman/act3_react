@@ -18,6 +18,9 @@ function App() {
 
   return (
     <div className="App">
+      <header className="app-header">
+        <h1>Activity 3: Dichosa Number App</h1>
+      </header>
       <div className="counter-container">
         <div className="counter">{number}</div>
         <div className="buttons">

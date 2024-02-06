@@ -30,13 +30,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 5.2em;
-  line-height: 1.1;
-  color: #e09e0f;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-}
 
 button {
   border-radius: 8px;
